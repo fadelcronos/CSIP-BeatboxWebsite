@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BTK Studio | Try Sound.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="myScript.js"></script>
+
+</head>
+<body onkeypress="playsound(event)">
+	<nav id="navbar">
+			<div class="judul"><div class="judul1">BTK</div>(BeatBox Studio)</div>
+			<ul>
+				<li><a class="hoverr" href="index.html">Home</a></li>
+				<li><a class="hoverr" href="Tutorial.html">Tutorial</a></li>
+				<li><a class="hoverr" href="about.html">About</a></li>
+				<li><a class="highlight" href="play.html">Play</a></li>
+			</ul>	
+	</nav>
+	<section class="background"></section>
+	<section class="content">
+		<h1>Try It Now!</h1>
+		<p>
+			Try A Sound Just By Clicking The Button Below Or You Also Can Play It With Your Keyboard.<br>
+			*Keyword :<br>
+			Press 1 For Bass Sound<br>
+			Press 2 For Hi-Hat Sound<br>
+			Press 3 For Snare Sound<br>
+			Press 4 For PF Snare Sound<br>
+			Press 5 For Cymbal Sound<br>
+			Press 6 For RimShot Sound<br>
+
+		</p>
+		<div class="p1">
+		<button id="be" class="bass" onclick="pbass()" >Bass</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button id="te" class="bass" onclick="pcym()" >Hi-Hat</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button id="ka" class="bass" onclick="psnare()" >Snare</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button id="be" class="bass" onclick="psym()" >Cymbal</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button id="be" class="bass" onclick="pf()" >PFSnare</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button id="be" class="bass" onclick="prim()" >RimShot</button>
+		</div>
+		<h2>Let's Try Some Pattern</h2>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;Pattern consist of bars, bars in beatbox consist of a beat, usually 1 bar consist of 4 beat, so in that 4 beat we can put some beatbox beat. Still confuse? just scroll it down.</p>
+		<div class="p2">
+			<audio controls><source src="audio/ex1.mp3" type="audio/mp3"></audio><br><br>
+				1  2  2  2 | 3  2  2  1 | 2  1  1  2 | 3  2  2  2  
+			
+		</div>
+	</section>
+	<footer>
+		<p>FadelCronos Web Design, Copyright &copy; 2018</p>
+	</footer>
+
+
+	
+</body>
+</html>
